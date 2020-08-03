@@ -2,6 +2,7 @@ package com.azuriel.IlhaDaGalinha.utils;
 
 import com.azuriel.IlhaDaGalinha.IlhaDaGalinha;
 import com.azuriel.IlhaDaGalinha.blocks.BlockItemBase;
+import com.azuriel.IlhaDaGalinha.blocks.GalinhanitaOre;
 import com.azuriel.IlhaDaGalinha.blocks.StonePath;
 import com.azuriel.IlhaDaGalinha.items.EggStuf;
 import com.azuriel.IlhaDaGalinha.items.ItemBase;
@@ -37,11 +38,13 @@ public class ResgistryHandler {
 
     //Block
    // public static final RegistryObject<Block> STONE_PATH =  BLOCKS.register("stone_path", StonePath::new);
+   public static final RegistryObject<Block> GALINHANITA =  BLOCKS.register("galinhanita_ore", GalinhanitaOre::new);
 
 
 
 
     //BLock Item
    // public static final RegistryObject<Item> STONE_PATH_ITEM =  ITEMS.register("stone_path", () -> new BlockItemBase(STONE_PATH.get()));
+   public static final RegistryObject<Item> GALINHANITA_ITEM =  ITEMS.register("galinhanita_ore", () -> new BlockItemBase(GALINHANITA.get()));
 
 }
