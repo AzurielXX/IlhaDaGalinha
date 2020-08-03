@@ -8,7 +8,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
 
-modId="IdG1" #mandatory
+modId="idg1" #mandatory
 
 version="1.16.1-1.0.0" #mandatory
 
@@ -20,11 +20,11 @@ displayURL="https://github.com/AzurielXX/IlhaDaGalinha" #optional
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks to Jes, Tonhão and Vini to be part of this" #optional
 
-authors="Love, Cheese and small house plants" #optional
+authors="The best, azuriel" #optional
 
-description='''  '''
+description='''If you are looking for something relevant, get out, this is just a pile of trash :)'''
 
 [[dependencies.examplemod]] #optional
 

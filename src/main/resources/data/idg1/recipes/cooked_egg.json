@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "idg1:egg_bucket"
+  },
+  "result": "idg1:cooked_egg",
+  "experience": 0.0,
+  "cookingtime": 200
+}
