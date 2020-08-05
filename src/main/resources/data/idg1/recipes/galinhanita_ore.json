@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:egg"
+    },
+    "y":
+    {
+      "item": "minecraft:diamond_ore"
+    }
+  },
+  "result":
+  {
+    "item": "idg1:galinhanita_ore",
+    "count": 1
+  }
+}
