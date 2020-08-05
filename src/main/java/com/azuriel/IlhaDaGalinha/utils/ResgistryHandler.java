@@ -33,6 +33,7 @@ public class ResgistryHandler {
     public static final RegistryObject<EggStuf> FRIED_EGG =  ITEMS.register("fried_egg",() -> new EggStuf(5));
     public static final RegistryObject<Item> BUCKET_EGG =  ITEMS.register("egg_bucket",ItemBase::new);
     public static final RegistryObject<EggStuf> COOKED_EGG =  ITEMS.register("cooked_egg",() -> new EggStuf(8));
+    public static final RegistryObject<Item> GALINHANITA_INGOT =  ITEMS.register("galinhanita_ingot",ItemBase::new);
 
 
 

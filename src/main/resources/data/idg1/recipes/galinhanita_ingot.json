@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "idg1:galinhanita_ore"
+  },
+  "result": "idg1:galinhanita_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
