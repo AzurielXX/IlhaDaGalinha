@@ -6,8 +6,10 @@ import com.azuriel.IlhaDaGalinha.blocks.GalinhanitaOre;
 import com.azuriel.IlhaDaGalinha.blocks.StonePath;
 import com.azuriel.IlhaDaGalinha.items.EggStuf;
 import com.azuriel.IlhaDaGalinha.items.ItemBase;
+import com.azuriel.IlhaDaGalinha.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -41,7 +43,9 @@ public class ResgistryHandler {
    // public static final RegistryObject<Block> STONE_PATH =  BLOCKS.register("stone_path", StonePath::new);
    public static final RegistryObject<Block> GALINHANITA =  BLOCKS.register("galinhanita_ore", GalinhanitaOre::new);
 
-
+    //tolls
+    public static final RegistryObject<SwordItem> GALINHANITA_SWORD = ITEMS.register("galinhanita_sword",() ->
+            new SwordItem(ModItemTier.GALINHANITA,5,-1.1f, new Item.Properties().group(IlhaDaGalinha.TAB)));
 
 
     //BLock Item

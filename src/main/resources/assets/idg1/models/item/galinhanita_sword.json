@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "idg1:items/galinhanita_sword"
+  }
+}

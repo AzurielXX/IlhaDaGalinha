@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "y",
+    "y",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "y":
+    {
+      "item": "idg1:galinhanita_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "idg1:galinhanita_sword",
+    "count": 1
+  }
+}
