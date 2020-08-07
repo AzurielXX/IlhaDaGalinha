@@ -3,8 +3,8 @@ package com.azuriel.IlhaDaGalinha.utils;
 import com.azuriel.IlhaDaGalinha.IlhaDaGalinha;
 import com.azuriel.IlhaDaGalinha.blocks.BlockItemBase;
 import com.azuriel.IlhaDaGalinha.blocks.GalinhanitaOre;
-import com.azuriel.IlhaDaGalinha.blocks.StonePath;
 import com.azuriel.IlhaDaGalinha.items.EggStuf;
+import com.azuriel.IlhaDaGalinha.items.GalinhaMainClass;
 import com.azuriel.IlhaDaGalinha.items.ItemBase;
 import com.azuriel.IlhaDaGalinha.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -31,7 +31,7 @@ public class ResgistryHandler {
 
     //item
         //O nome do item no register tem que ser em minusculo
-    public static final RegistryObject<Item> GALINHADAJESS =  ITEMS.register("galinha_da_jess", ItemBase::new);
+    public static final RegistryObject<Item> GALINHADAJESS =  ITEMS.register("galinha_da_jess", GalinhaMainClass::new);
     public static final RegistryObject<EggStuf> FRIED_EGG =  ITEMS.register("fried_egg",() -> new EggStuf(5));
     public static final RegistryObject<Item> BUCKET_EGG =  ITEMS.register("egg_bucket",ItemBase::new);
     public static final RegistryObject<EggStuf> COOKED_EGG =  ITEMS.register("cooked_egg",() -> new EggStuf(8));
